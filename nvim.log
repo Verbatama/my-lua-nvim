@@ -1,0 +1,637 @@
+
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "/home/Tama/opt/nvim/share/nvim/runtime/ftplugin.vim"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/ftplugin.vim
+sourcing "/home/Tama/opt/nvim/share/nvim/runtime/indent.vim"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/indent.vim
+could not source "/etc/xdg/nvim/sysinit.vim"
+could not source "$VIM/sysinit.vim"
+sourcing "/home/Tama/.config/nvim/init.lua"
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/filetype.lua"
+line 0: sourcing "nvim_exec2() called at /home/Tama/opt/nvim/share/nvim/runtime/filetype.lua:0"
+not found in runtime path: "ftdetect/*.{vim,lua}"
+finished sourcing nvim_exec2() called at /home/Tama/opt/nvim/share/nvim/runtime/filetype.lua:0
+continuing in /home/Tama/opt/nvim/share/nvim/runtime/filetype.lua
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/filetype.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "/home/Tama/.local/share/nvim/lazy/catppuccin/colors/catppuccin.lua"
+finished sourcing /home/Tama/.local/share/nvim/lazy/catppuccin/colors/catppuccin.lua
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua"
+finished sourcing /home/Tama/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.vim"
+finished sourcing /home/Tama/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.vim
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/nvim-cmp/plugin/cmp.lua"
+line 0: sourcing "nvim_exec2() called at /home/Tama/.local/share/nvim/lazy/nvim-cmp/plugin/cmp.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.local/share/nvim/lazy/nvim-cmp/plugin/cmp.lua:0
+continuing in /home/Tama/.local/share/nvim/lazy/nvim-cmp/plugin/cmp.lua
+finished sourcing /home/Tama/.local/share/nvim/lazy/nvim-cmp/plugin/cmp.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim"
+finished sourcing /home/Tama/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/nvim-web-devicons/plugin/nvim-web-devicons.vim"
+finished sourcing /home/Tama/.local/share/nvim/lazy/nvim-web-devicons/plugin/nvim-web-devicons.vim
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/neo-tree.nvim/plugin/neo-tree.lua"
+finished sourcing /home/Tama/.local/share/nvim/lazy/neo-tree.nvim/plugin/neo-tree.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/nvim-lspconfig/plugin/lspconfig.lua"
+finished sourcing /home/Tama/.local/share/nvim/lazy/nvim-lspconfig/plugin/lspconfig.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+                                              The `require('lspconfig')` "framework" is deprecated, use vim.lsp.config (see :help lspconfig-nvim-0.11) instead.
+Feature will be removed in nvim-lspconfig v3.0.0
+stack traceback:
+	.../.local/share/nvim/lazy/nvim-lspconfig/lua/lspconfig.lua:81: in function '__index'
+	/home/Tama/.config/nvim/lua/plugins/mason-lsp.lua:30: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:380: in function <...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:378>
+	[C]: in function 'xpcall'
+	.../.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/util.lua:135: in function 'try'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:395: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:362: in function '_load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:197: in function 'load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:127: in function 'startup'
+	.../Tama/.local/share/nvim/lazy/lazy.nvim/lua/lazy/init.lua:112: in function 'setup'
+	/home/Tama/.config/nvim/lua/config/lazy.lua:16: in main chunk
+	[C]: in function 'require'
+	/home/Tama/.config/nvim/init.lua:3: in main chunk
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+not found in runtime path: "lua/lualine/themes/catppuccin.lua"
+not found in runtime path: "lua/lualine/themes/catppuccin/init.lua"
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+--- Autocommands ---
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+--- Autocommands ---
+lualine  BufEnter
+    *         lua require'lualine.components.branch.git_branch'.find_git_dir()
+	Last set from ~/.local/share/nvim/lazy/lualine.nvim/lua/lualine/utils/utils.lua line 98
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+--- Autocommands ---
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+--- Autocommands ---
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/editorconfig.lua"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/editorconfig.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/gzip.vim"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/gzip.vim
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/man.lua"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/man.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/matchit.vim"
+not found in 'packpath': "pack/*/start/matchit"
+line 3: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+continuing in /home/Tama/opt/nvim/share/nvim/runtime/plugin/matchit.vim
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/matchit.vim
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/matchparen.vim"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/matchparen.vim
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/net.lua"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/net.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/netrwPlugin.vim"
+not found in 'packpath': "pack/*/start/netrw"
+line 7: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim
+continuing in /home/Tama/opt/nvim/share/nvim/runtime/plugin/netrwPlugin.vim
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/netrwPlugin.vim
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/osc52.lua"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/osc52.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/rplugin.vim"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/rplugin.vim
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/shada.lua"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/shada.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/spellfile.lua"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/spellfile.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/tarPlugin.vim"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/tarPlugin.vim
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/tutor.vim"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/tutor.vim
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/plugin/zipPlugin.vim"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/plugin/zipPlugin.vim
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/cmp-path/after/plugin/cmp_path.lua"
+finished sourcing /home/Tama/.local/share/nvim/lazy/cmp-path/after/plugin/cmp_path.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/cmp-buffer/after/plugin/cmp_buffer.lua"
+finished sourcing /home/Tama/.local/share/nvim/lazy/cmp-buffer/after/plugin/cmp_buffer.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/cmp_luasnip/after/plugin/cmp_luasnip.lua"
+finished sourcing /home/Tama/.local/share/nvim/lazy/cmp_luasnip/after/plugin/cmp_luasnip.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/cmp-nvim-lsp/after/plugin/cmp_nvim_lsp.lua"
+finished sourcing /home/Tama/.local/share/nvim/lazy/cmp-nvim-lsp/after/plugin/cmp_nvim_lsp.lua
+continuing in nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /home/Tama/.config/nvim/init.lua:0
+continuing in /home/Tama/.config/nvim/init.lua
+finished sourcing /home/Tama/.config/nvim/init.lua
+sourcing "/home/Tama/opt/nvim/share/nvim/runtime/filetype.lua"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/filetype.lua
+sourcing "/home/Tama/opt/nvim/share/nvim/runtime/syntax/syntax.vim"
+line 20: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/syntax/synload.vim"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/syntax/synload.vim
+continuing in /home/Tama/opt/nvim/share/nvim/runtime/syntax/syntax.vim
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/syntax/syntax.vim
+Reading ShaDa file "/home/Tama/.local/state/nvim/shada/main.shada" info marks oldfiles
+Reading ShaDa file "/home/Tama/.local/state/nvim/shada/main.shada" marks
+line 0: sourcing "nvim_exec2() called at BufReadPost Autocommands for "*":0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/nvim-treesitter/plugin/filetypes.lua"
+finished sourcing /home/Tama/.local/share/nvim/lazy/nvim-treesitter/plugin/filetypes.lua
+continuing in nvim_exec2() called at BufReadPost Autocommands for "*":0
+finished sourcing nvim_exec2() called at BufReadPost Autocommands for "*":0
+continuing in BufReadPost Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufReadPost Autocommands for "*":0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua"
+finished sourcing /home/Tama/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua
+continuing in nvim_exec2() called at BufReadPost Autocommands for "*":0
+finished sourcing nvim_exec2() called at BufReadPost Autocommands for "*":0
+continuing in BufReadPost Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufReadPost Autocommands for "*":0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/nvim-treesitter/plugin/query_predicates.lua"
+finished sourcing /home/Tama/.local/share/nvim/lazy/nvim-treesitter/plugin/query_predicates.lua
+continuing in nvim_exec2() called at BufReadPost Autocommands for "*":0
+finished sourcing nvim_exec2() called at BufReadPost Autocommands for "*":0
+continuing in BufReadPost Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufReadPost Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufReadPost Autocommands for "*":0
+continuing in BufReadPost Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufReadPost Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufReadPost Autocommands for "*":0
+continuing in BufReadPost Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufReadPost Autocommands for "*":0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/rainbow-delimiters.nvim/plugin/rainbow-delimiters.lua"
+finished sourcing /home/Tama/.local/share/nvim/lazy/rainbow-delimiters.nvim/plugin/rainbow-delimiters.lua
+continuing in nvim_exec2() called at BufReadPost Autocommands for "*":0
+finished sourcing nvim_exec2() called at BufReadPost Autocommands for "*":0
+continuing in BufReadPost Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufReadPost Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufReadPost Autocommands for "*":0
+continuing in BufReadPost Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufReadPost Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufReadPost Autocommands for "*":0
+continuing in BufReadPost Autocommands for "*"
+line 20: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/ftplugin/lua.vim"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/ftplugin/lua.vim
+continuing in <SNR>2_LoadFTPlugin
+line 20: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/ftplugin/lua.lua"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/ftplugin/lua.lua
+continuing in <SNR>2_LoadFTPlugin
+line 15: sourcing "/home/Tama/opt/nvim/share/nvim/runtime/indent/lua.vim"
+finished sourcing /home/Tama/opt/nvim/share/nvim/runtime/indent/lua.vim
+continuing in <SNR>3_LoadIndent
+Writing ShaDa file "/home/Tama/.local/state/nvim/shada/main.shada"
+line 0: sourcing "nvim_exec2() called at command line:0"
+finished sourcing nvim_exec2() called at command line:0
+continuing in command line
+line 0: sourcing "nvim_exec2() called at command line:0"
+finished sourcing nvim_exec2() called at command line:0
+continuing in command line
+line 0: sourcing "nvim_exec2() called at command line:0"
+finished sourcing nvim_exec2() called at command line:0
+continuing in command line
+line 0: sourcing "nvim_exec2() called at command line:0"
+finished sourcing nvim_exec2() called at command line:0
+continuing in command line
+line 0: sourcing "nvim_exec2() called at command line:0"
+finished sourcing nvim_exec2() called at command line:0
+continuing in command line
+line 0: sourcing "nvim_exec2() called at command line:0"
+finished sourcing nvim_exec2() called at command line:0
+continuing in command line
+line 0: sourcing "nvim_exec2() called at command line:0"
+finished sourcing nvim_exec2() called at command line:0
+continuing in command line
+Error in command line:Failed to run `config` for nvim-treesitter
+
+/home/Tama/.config/nvim/lua/config/treesitter.lua:1: module 'nvim-treesitter.configs' not found:
+	no field package.preload['nvim-treesitter.configs']
+	cache_loader: module 'nvim-treesitter.configs' not found
+	cache_loader_lib: module 'nvim-treesitter.configs' not found
+	no file './nvim-treesitter/configs.lua'
+	no file '/home/runner/work/neovim/neovim/.deps/usr/share/luajit-2.1/nvim-treesitter/configs.lua'
+	no file '/usr/local/share/lua/5.1/nvim-treesitter/configs.lua'
+	no file '/usr/local/share/lua/5.1/nvim-treesitter/configs/init.lua'
+	no file '/home/runner/work/neovim/neovim/.deps/usr/share/lua/5.1/nvim-treesitter/configs.lua'
+	no file '/home/runner/work/neovim/neovim/.deps/usr/share/lua/5.1/nvim-treesitter/configs/init.lua'
+	no file './nvim-treesitter/configs.so'
+	no file '/usr/local/lib/lua/5.1/nvim-treesitter/configs.so'
+	no file '/home/runner/work/neovim/neovim/.deps/usr/lib/lua/5.1/nvim-treesitter/configs.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './nvim-treesitter.so'
+	no file '/usr/local/lib/lua/5.1/nvim-treesitter.so'
+	no file '/home/runner/work/neovim/neovim/.deps/usr/lib/lua/5.1/nvim-treesitter.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+
+# stacktrace:
+  - lua/config/treesitter.lua:1
+  - lua/plugins/treesitter.lua:6 _in_ **config**

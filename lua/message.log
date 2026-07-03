@@ -1,0 +1,255 @@
+
+
+The `require('lspconfig')` "framework" is deprecated, use vim.lsp.config (see :help lspconfig-nvim-0.11) instead.
+Feature will be removed in nvim-lspconfig v3.0.0
+stack traceback:
+	.../.local/share/nvim/lazy/nvim-lspconfig/lua/lspconfig.lua:81: in function '__index'
+	/home/Tama/.config/nvim/lua/plugins/mason-lsp.lua:30: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:380: in function <...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:378>
+	[C]: in function 'xpcall'
+	.../.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/util.lua:135: in function 'try'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:395: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:362: in function '_load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:197: in function 'load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:127: in function 'startup'
+	.../Tama/.local/share/nvim/lazy/lazy.nvim/lua/lazy/init.lua:112: in function 'setup'
+	/home/Tama/.config/nvim/lua/config/lazy.lua:16: in main chunk
+	[C]: in function 'require'
+	/home/Tama/.config/nvim/init.lua:3: in main chunk
+lualine: There are some issues with your config. Run :LualineNotices for details
+[Neo-tree ERROR] Error in setup for vim_buffer_modified_set : ...are/nvim/lazy/neo-tree.nvim/lua/neo-tree/events/init.lua:80: Invalid 'event': 'BufModifiedSet'
+0
+continuing in BufReadPre Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufReadPre Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufReadPre Autocommands for "*":0
+continuing in BufReadPre Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufReadPre Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufReadPre Autocommands for "*":0
+continuing in BufReadPre Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufReadPre Autocommands for "*":0"
+line 1: sourcing "/home/Tama/.local/share/nvim/lazy/rainbow-delimiters.nvim/plugin/rainbow-delimiters.lua"
+finished sourcing /home/Tama/.local/share/nvim/lazy/rainbow-delimiters.nvim/plugin/rainbow-delimiters.lua
+continuing in nvim_exec2() called at BufReadPre Autocommands for "*":0
+finished sourcing nvim_exec2() called at BufReadPre Autocommands for "*":0
+continuing in BufReadPre Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufReadPre Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufReadPre Autocommands for "*":0
+continuing in BufReadPre Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufReadPre Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufReadPre Autocommands for "*":0
+continuing in BufReadPre Autocommands for "*"
+Reading ShaDa file "/home/Tama/.local/state/nvim/shada/main.shada" marks
+not found in runtime path: "scripts.vim"
+finished sourcing nvim_exec2()
+/neo                                                                                                                                                                               
+
+/neo                                                                                                                                                                         [1/10]
+/neo                                                                                                                                                                         [1/10]
+/neo                                                                                                                                                                               
+
+/neo                                                                                                                                                                         [5/10]
+/neo                                                                                                                                                                         [5/10]
+
+
+
+The `require('lspconfig')` "framework" is deprecated, use vim.lsp.config (see :help lspconfig-nvim-0.11) instead.
+Feature will be removed in nvim-lspconfig v3.0.0
+stack traceback:
+	.../.local/share/nvim/lazy/nvim-lspconfig/lua/lspconfig.lua:81: in function '__index'
+	/home/Tama/.config/nvim/lua/plugins/mason-lsp.lua:30: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:380: in function <...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:378>
+	[C]: in function 'xpcall'
+	.../.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/util.lua:135: in function 'try'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:395: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:362: in function '_load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:197: in function 'load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:127: in function 'startup'
+	.../Tama/.local/share/nvim/lazy/lazy.nvim/lua/lazy/init.lua:112: in function 'setup'
+	/home/Tama/.config/nvim/lua/config/lazy.lua:16: in main chunk
+	[C]: in function 'require'
+	/home/Tama/.config/nvim/init.lua:3: in main chunk
+lualine: There are some issues with your config. Run :LualineNotices for details
+[Neo-tree ERROR] Error in setup for vim_buffer_modified_set : ...are/nvim/lazy/neo-tree.nvim/lua/neo-tree/events/init.lua:80: Invalid 'event': 'BufModifiedSet'
+
+
+The `require('lspconfig')` "framework" is deprecated, use vim.lsp.config (see :help lspconfig-nvim-0.11) instead.
+Feature will be removed in nvim-lspconfig v3.0.0
+stack traceback:
+	.../.local/share/nvim/lazy/nvim-lspconfig/lua/lspconfig.lua:81: in function '__index'
+	/home/Tama/.config/nvim/lua/plugins/mason-lsp.lua:30: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:380: in function <...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:378>
+	[C]: in function 'xpcall'
+	.../.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/util.lua:135: in function 'try'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:395: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:362: in function '_load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:197: in function 'load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:127: in function 'startup'
+	.../Tama/.local/share/nvim/lazy/lazy.nvim/lua/lazy/init.lua:112: in function 'setup'
+	/home/Tama/.config/nvim/lua/config/lazy.lua:16: in main chunk
+	[C]: in function 'require'
+	/home/Tama/.config/nvim/init.lua:3: in main chunk
+lualine: There are some issues with your config. Run :LualineNotices for details
+[Neo-tree ERROR] Error in setup for vim_buffer_modified_set : ...are/nvim/lazy/neo-tree.nvim/lua/neo-tree/events/init.lua:80: Invalid 'event': 'BufModifiedSet'
+
+56 lines yanked
+
+
+not found in runtime path: "ftplugin/neo-tree[.]{vim,lua} ftplugin/neo-tree_*.{vim,lua} ftplugin/neo-tree/*.{vim,lua}"
+not found in runtime path: "indent/neo-tree[.]{vim,lua}"
+line 0: sourcing "nvim_exec2() called at BufEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufEnter Autocommands for "*":0
+continuing in BufEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufEnter Autocommands for "*":0
+continuing in BufEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufWinEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufWinEnter Autocommands for "*":0
+continuing in BufWinEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufWinEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufWinEnter Autocommands for "*":0
+continuing in BufWinEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufEnter Autocommands for "*":0
+continuing in BufEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufEnter Autocommands for "*":0
+continuing in BufEnter Autocommands for "*"
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+
+
+not found in runtime path: "ftplugin/neo-tree[.]{vim,lua} ftplugin/neo-tree_*.{vim,lua} ftplugin/neo-tree/*.{vim,lua}"
+not found in runtime path: "indent/neo-tree[.]{vim,lua}"
+line 0: sourcing "nvim_exec2() called at BufEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufEnter Autocommands for "*":0
+continuing in BufEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufEnter Autocommands for "*":0
+continuing in BufEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufWinEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufWinEnter Autocommands for "*":0
+continuing in BufWinEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufWinEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufWinEnter Autocommands for "*":0
+continuing in BufWinEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufEnter Autocommands for "*":0
+continuing in BufEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufEnter Autocommands for "*":0
+continuing in BufEnter Autocommands for "*"
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+
+
+not found in runtime path: "ftplugin/neo-tree[.]{vim,lua} ftplugin/neo-tree_*.{vim,lua} ftplugin/neo-tree/*.{vim,lua}"
+not found in runtime path: "indent/neo-tree[.]{vim,lua}"
+line 0: sourcing "nvim_exec2() called at BufEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufEnter Autocommands for "*":0
+continuing in BufEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufEnter Autocommands for "*":0
+continuing in BufEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufWinEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufWinEnter Autocommands for "*":0
+continuing in BufWinEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufWinEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufWinEnter Autocommands for "*":0
+continuing in BufWinEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufEnter Autocommands for "*":0
+continuing in BufEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at BufEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufEnter Autocommands for "*":0
+continuing in BufEnter Autocommands for "*"
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+
+E492: Not an editor command: messaages
+
+The `require('lspconfig')` "framework" is deprecated, use vim.lsp.config (see :help lspconfig-nvim-0.11) instead.
+Feature will be removed in nvim-lspconfig v3.0.0
+stack traceback:
+	.../.local/share/nvim/lazy/nvim-lspconfig/lua/lspconfig.lua:81: in function '__index'
+	/home/Tama/.config/nvim/lua/plugins/mason-lsp.lua:30: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:380: in function <...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:378>
+	[C]: in function 'xpcall'
+	.../.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/util.lua:135: in function 'try'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:395: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:362: in function '_load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:197: in function 'load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:127: in function 'startup'
+	.../Tama/.local/share/nvim/lazy/lazy.nvim/lua/lazy/init.lua:112: in function 'setup'
+	/home/Tama/.config/nvim/lua/config/lazy.lua:16: in main chunk
+	[C]: in function 'require'
+	/home/Tama/.config/nvim/init.lua:3: in main chunk
+lualine: There are some issues with your config. Run :LualineNotices for details
+[Neo-tree ERROR] Error in setup for vim_buffer_modified_set : ...are/nvim/lazy/neo-tree.nvim/lua/neo-tree/events/init.lua:80: Invalid 'event': 'BufModifiedSet'
+56 lines yanked
+E492: Not an editor command: messaages
+
+The `require('lspconfig')` "framework" is deprecated, use vim.lsp.config (see :help lspconfig-nvim-0.11) instead.
+Feature will be removed in nvim-lspconfig v3.0.0
+stack traceback:
+	.../.local/share/nvim/lazy/nvim-lspconfig/lua/lspconfig.lua:81: in function '__index'
+	/home/Tama/.config/nvim/lua/plugins/mason-lsp.lua:30: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:380: in function <...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:378>
+	[C]: in function 'xpcall'
+	.../.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/util.lua:135: in function 'try'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:395: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:362: in function '_load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:197: in function 'load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:127: in function 'startup'
+	.../Tama/.local/share/nvim/lazy/lazy.nvim/lua/lazy/init.lua:112: in function 'setup'
+	/home/Tama/.config/nvim/lua/config/lazy.lua:16: in main chunk
+	[C]: in function 'require'
+	/home/Tama/.config/nvim/init.lua:3: in main chunk
+lualine: There are some issues with your config. Run :LualineNotices for details
+[Neo-tree ERROR] Error in setup for vim_buffer_modified_set : ...are/nvim/lazy/neo-tree.nvim/lua/neo-tree/events/init.lua:80: Invalid 'event': 'BufModifiedSet'
+56 lines yanked
+E492: Not an editor command: messaages
+
+The `require('lspconfig')` "framework" is deprecated, use vim.lsp.config (see :help lspconfig-nvim-0.11) instead.
+Feature will be removed in nvim-lspconfig v3.0.0
+stack traceback:
+	.../.local/share/nvim/lazy/nvim-lspconfig/lua/lspconfig.lua:81: in function '__index'
+	/home/Tama/.config/nvim/lua/plugins/mason-lsp.lua:30: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:380: in function <...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:378>
+	[C]: in function 'xpcall'
+	.../.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/util.lua:135: in function 'try'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:395: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:362: in function '_load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:197: in function 'load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:127: in function 'startup'
+	.../Tama/.local/share/nvim/lazy/lazy.nvim/lua/lazy/init.lua:112: in function 'setup'
+	/home/Tama/.config/nvim/lua/config/lazy.lua:16: in main chunk
+	[C]: in function 'require'
+	/home/Tama/.config/nvim/init.lua:3: in main chunk
+lualine: There are some issues with your config. Run :LualineNotices for details
+[Neo-tree ERROR] Error in setup for vim_buffer_modified_set : ...are/nvim/lazy/neo-tree.nvim/lua/neo-tree/events/init.lua:80: Invalid 'event': 'BufModifiedSet'
+56 lines yanked
+E492: Not an editor command: messaages
+
+
+The `require('lspconfig')` "framework" is deprecated, use vim.lsp.config (see :help lspconfig-nvim-0.11) instead.
+Feature will be removed in nvim-lspconfig v3.0.0
+stack traceback:
+	.../.local/share/nvim/lazy/nvim-lspconfig/lua/lspconfig.lua:81: in function '__index'
+	/home/Tama/.config/nvim/lua/plugins/mason-lsp.lua:30: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:380: in function <...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:378>
+	[C]: in function 'xpcall'
+	.../.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/util.lua:135: in function 'try'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:395: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:362: in function '_load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:197: in function 'load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:127: in function 'startup'
+	.../Tama/.local/share/nvim/lazy/lazy.nvim/lua/lazy/init.lua:112: in function 'setup'
+	/home/Tama/.config/nvim/lua/config/lazy.lua:16: in main chunk
+	[C]: in function 'require'
+	/home/Tama/.config/nvim/init.lua:3: in main chunk
+lualine: There are some issues with your config. Run :LualineNotices for details
+[Neo-tree ERROR] Error in setup for vim_buffer_modified_set : ...are/nvim/lazy/neo-tree.nvim/lua/neo-tree/events/init.lua:80: Invalid 'event': 'BufModifiedSet'
+56 lines yanked
+E492: Not an editor command: messaages
+
+Writing ShaDa file "/home/Tama/.local/state/nvim/shada/main.shada"
