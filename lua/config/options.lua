@@ -11,3 +11,5 @@ vim.opt.clipboard = "unnamedplus"
 
 vim.opt.termguicolors = true
 vim.opt.showtabline = 2
+
+require("config.auto-save")

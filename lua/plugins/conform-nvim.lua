@@ -18,6 +18,9 @@ return {
 			lua = { "stylua" },
 			prisma = { "prisma" },
 			kotlin = { "ktfmt" },
+			php = { "pint" },
+			blade = { "blade-formatter" },
+			rust = { "rustfmt" },
 		},
 
 		format_on_save = {
