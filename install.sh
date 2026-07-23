@@ -9,17 +9,17 @@ umask 022
 
 readonly SCRIPT_NAME="${0##*/}"
 readonly ORIGINAL_PATH="$PATH"
-readonly REPO_URL="${NVIM_CONFIG_REPO:-https://github.com/Verbatama/my-nvim-verbatama.git}"
+readonly REPO_URL="${NVIM_CONFIG_REPO:-https://github.com/Verbatama/my-lua-nvim.git}"
 readonly REPO_BRANCH="${NVIM_CONFIG_BRANCH:-main}"
-readonly CONFIG_SUBDIR="${NVIM_CONFIG_SUBDIR:-nvim}"
+readonly CONFIG_SUBDIR="${NVIM_CONFIG_SUBDIR:-.}"
 XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 XDG_DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
 XDG_CACHE_HOME="${XDG_CACHE_HOME:-$HOME/.cache}"
 readonly INSTALL_ROOT="${NVIM_INSTALL_ROOT:-$HOME/.local/opt/neovim}"
 readonly BIN_DIR="${NVIM_BIN_DIR:-$HOME/.local/bin}"
 readonly CONFIG_DIR="${NVIM_CONFIG_DIR:-$XDG_CONFIG_HOME/nvim}"
-readonly REPO_DIR="${NVIM_CONFIG_REPO_DIR:-$XDG_DATA_HOME/my-nvim-verbatama/repo}"
-readonly BACKUP_ROOT="${NVIM_BACKUP_DIR:-$XDG_DATA_HOME/my-nvim-verbatama/backups}"
+readonly REPO_DIR="${NVIM_CONFIG_REPO_DIR:-$XDG_DATA_HOME/my-lua-nvim/repo}"
+readonly BACKUP_ROOT="${NVIM_BACKUP_DIR:-$XDG_DATA_HOME/my-lua-nvim/backups}"
 readonly LAZY_DIR="$XDG_DATA_HOME/nvim/lazy/lazy.nvim"
 readonly RELEASE_API="https://api.github.com/repos/neovim/neovim/releases/latest"
 readonly NEOVIM_REPO="https://github.com/neovim/neovim.git"
@@ -77,6 +77,24 @@ info() { printf '%s==>%s %s\n' "$C_GREEN" "$C_RESET" "$*"; }
 warn() { printf '%sWARN:%s %s\n' "$C_YELLOW" "$C_RESET" "$*" >&2; }
 die()  { printf '%sERROR:%s %s\n' "$C_RED" "$C_RESET" "$*" >&2; exit 1; }
 have() { command -v "$1" >/dev/null 2>&1; }
+
+validate_config_subdir() {
+  case "$CONFIG_SUBDIR" in
+    ''|.) return 0 ;;
+    /*|..|../*|*/../*|*/..)
+      die "NVIM_CONFIG_SUBDIR must be a relative path inside the repository."
+      ;;
+  esac
+}
+
+repo_config_path() {
+  local repo=$1
+  if [[ -z "$CONFIG_SUBDIR" || "$CONFIG_SUBDIR" == . ]]; then
+    printf '%s\n' "$repo"
+  else
+    printf '%s/%s\n' "$repo" "$CONFIG_SUBDIR"
+  fi
+}
 
 cleanup() {
   local status=$?
@@ -471,18 +489,22 @@ run_nvim_headless() {
 
 install_config() {
   local staged_repo="$TMP_DIR/config-repo"
+  local staged_config
+  local final_config
   local test_config_home="$TMP_DIR/config-home"
+
   info "Cloning Neovim config from $REPO_URL ($REPO_BRANCH)"
   git clone --depth 1 --branch "$REPO_BRANCH" "$REPO_URL" "$staged_repo"
-  [[ -f "$staged_repo/$CONFIG_SUBDIR/init.lua" ]] || \
-    die "Repository does not contain $CONFIG_SUBDIR/init.lua."
+  staged_config="$(repo_config_path "$staged_repo")"
+  [[ -f "$staged_config/init.lua" ]] || \
+    die "Repository does not contain init.lua at the configured path: $CONFIG_SUBDIR"
 
   bootstrap_lazy
   mkdir -p "$test_config_home"
-  ln -s "$staged_repo/$CONFIG_SUBDIR" "$test_config_home/nvim"
+  ln -s "$staged_config" "$test_config_home/nvim"
 
   if [[ "$SKIP_PLUGINS" -eq 0 ]]; then
-    if [[ -f "$staged_repo/$CONFIG_SUBDIR/lazy-lock.json" ]]; then
+    if [[ -f "$staged_config/lazy-lock.json" ]]; then
       info "Restoring plugins exactly from lazy-lock.json"
       run_nvim_headless "$test_config_home" '+Lazy! restore'
     else
@@ -497,14 +519,16 @@ install_config() {
   backup_path "$REPO_DIR" config-repository
   mkdir -p "$(dirname "$REPO_DIR")"
   mv -- "$staged_repo" "$REPO_DIR"
+  final_config="$(repo_config_path "$REPO_DIR")"
 
   backup_path "$CONFIG_DIR" nvim-config
   mkdir -p "$(dirname "$CONFIG_DIR")"
-  atomic_link "$REPO_DIR/$CONFIG_SUBDIR" "$CONFIG_DIR"
+  atomic_link "$final_config" "$CONFIG_DIR"
 }
 
 main() {
   [[ -n "${HOME:-}" && "$HOME" != / ]] || die "HOME must point to a normal user home directory."
+  validate_config_subdir
   [[ "$(basename "$CONFIG_DIR")" == nvim ]] || die "NVIM_CONFIG_DIR must end with /nvim so Neovim can discover it through XDG_CONFIG_HOME."
   TMP_DIR="$(mktemp -d "${TMPDIR:-/tmp}/nvim-install.XXXXXXXX")"
   BACKUP_DIR="$BACKUP_ROOT/$(date -u +%Y%m%dT%H%M%SZ)"
@@ -520,7 +544,7 @@ main() {
   printf '\n%sInstallation complete.%s\n' "$C_BOLD" "$C_RESET"
   printf '  Neovim : %s\n' "$version"
   printf '  Binary : %s\n' "$BIN_DIR/nvim"
-  printf '  Config : %s -> %s/%s\n' "$CONFIG_DIR" "$REPO_DIR" "$CONFIG_SUBDIR"
+  printf '  Config : %s -> %s\n' "$CONFIG_DIR" "$(repo_config_path "$REPO_DIR")"
   [[ -d "$BACKUP_DIR" ]] && printf '  Backup : %s\n' "$BACKUP_DIR"
   if [[ ":$ORIGINAL_PATH:" != *":$BIN_DIR:"* ]]; then
     printf '\nAdd this to your shell profile:\n  export PATH="%s:$PATH"\n' "$BIN_DIR"
@@ -528,3 +552,4 @@ main() {
 }
 
 main "$@"
+
