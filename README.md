@@ -14,11 +14,11 @@ chmod +x install.sh update.sh
 Force a source build:
 
 ./install.sh --source
-
+curl -fsSL https://raw.githubusercontent.com/Verbatama/my-nvim-verbatama/main/install.sh | bash
 Update
 
 ./update.sh
-
+curl -fsSL https://raw.githubusercontent.com/Verbatama/my-nvim-verbatama/main/update.sh | bash
 Update plugins beyond the committed lock file:
 
 ./update.sh --latest-plugins
